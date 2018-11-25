@@ -1197,6 +1197,12 @@ main section {
 main section.color-inverse {
   background-color: #54d154;
 }
+main section.color-inverse .section-header, main section.color-inverse .section-subheader {
+  color: #207b20;
+}
+main section.color-inverse button {
+  background-color: #2b9b2b;
+}
 main section .section-header {
   color: #828181;
   font-size: 30px;
@@ -1230,6 +1236,48 @@ main section#whatwedo .row p {
   font-size: 15px;
   color: #828181;
   line-height: 1.5em;
+}
+main section#ourlastwork .filterationContainer {
+  margin: 0 auto;
+}
+main section#ourlastwork ul.filteration {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+main section#ourlastwork ul.filteration li {
+  background-color: #FFF;
+  float: left;
+  padding: 15px 19px;
+  color: #54d154;
+  cursor: pointer;
+  border: 2px solid #2b9b2b;
+  border-left: 0px;
+}
+main section#ourlastwork ul.filteration li.active {
+  background-color: #2b9b2b;
+  color: #FFF;
+}
+main section#ourlastwork ul.filteration li:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+main section#ourlastwork ul.filteration li:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+main section#ourlastwork .image {
+  margin-bottom: 60px;
+}
+main section#ourlastwork .image img {
+  opacity: 0.7;
+  cursor: pointer;
+  -webkit-transition: 100ms ease-in-out;
+  -moz-transition: 100ms ease-in-out;
+  -o-transition: 100ms ease-in-out;
+  transition: 100ms ease-in-out;
+}
+main section#ourlastwork .image img:hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=app.css.map */

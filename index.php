@@ -120,29 +120,31 @@
 				<div class="container">
 					<div class="row">
 							
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
-		
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
 
-							<div class="col-md-2 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+
+							<div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 image"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple3/v4/86/a7/13/86a713b1-9c0e-8bbd-8eda-61d4963faa85/mzl.hkweszdo.png/246x0w.jpg" width="100%" /></div> <!-- .imagge -->
+
+							
 
 							
 					</div><!-- .row -->

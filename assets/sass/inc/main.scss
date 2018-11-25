@@ -8,6 +8,15 @@ main{
 		
 		&.color-inverse{
 			background-color:#54d154;
+
+
+			.section-header , .section-subheader{
+				color:#207b20;
+			}
+
+			button{
+				background-color:#2b9b2b;
+			}
 		}
 
 
@@ -56,6 +65,56 @@ main{
 
 			}
 			
+		}
+
+		&#ourlastwork{
+			.filterationContainer{
+				margin:0 auto;
+			}
+			ul.filteration{
+				display:inline-block;
+				margin-bottom:60px;
+
+				li{
+					background-color:$primary-c;
+					float:left;
+					padding:15px 19px;
+					color:$primary-bg;
+					cursor:pointer;
+					border:2px solid $dark-bg;
+					border-left:0px;
+					
+					&.active{
+						background-color:$dark-bg;
+						color:$primary-c;
+					}
+
+					&:first-child{
+						border-top-left-radius: 25px;
+						border-bottom-left-radius: 25px;
+					}
+
+					&:last-child{
+						border-top-right-radius: 25px;
+						border-bottom-right-radius: 25px;
+					}
+				}
+			}
+
+			.image{
+				margin-bottom:60px;
+
+				img{
+					opacity:0.7;
+					cursor:pointer;
+					@include enlarge(100);
+
+
+					&:hover{
+						opacity:1;
+					}
+				}
+			}
 		}
 
 
