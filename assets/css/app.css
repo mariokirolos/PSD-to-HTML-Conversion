@@ -1206,6 +1206,8 @@ main section.color-inverse button {
 main section .section-header {
   color: #828181;
   font-size: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 main section .section-header:after {
   content: "";
@@ -1278,6 +1280,34 @@ main section#ourlastwork .image img {
 }
 main section#ourlastwork .image img:hover {
   opacity: 1;
+  border-radius: 50%;
+}
+main section#testimonial .TestimonialsContainer ul#mainTestContent li.singleitem .test_owner {
+  display: table;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+main section#testimonial .TestimonialsContainer ul#mainTestContent li.singleitem .test_owner .test_image {
+  width: 45px;
+  height: 45px;
+  display: table-cell;
+}
+main section#testimonial .TestimonialsContainer ul#mainTestContent li.singleitem .test_owner .test_image img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #828181;
+}
+main section#testimonial .TestimonialsContainer ul#mainTestContent li.singleitem .test_owner .test_info {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 15px;
+}
+main section#testimonial .TestimonialsContainer ul#mainTestContent li.singleitem .test_owner .test_info .test_title {
+  color: #cccccc;
+  font-weight: bold;
+  margin-top: 8px;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -23,6 +23,8 @@ main{
 		.section-header{
 			color:$lightGray;
 			font-size:30px;
+			letter-spacing: 3px;
+			text-transform: uppercase;
 
 			&:after{
 				content:'';
@@ -112,11 +114,56 @@ main{
 
 					&:hover{
 						opacity:1;
+						border-radius:50%;
 					}
 				}
 			}
 		}
 
+
+		&#testimonial{
+			.TestimonialsContainer{
+				ul#mainTestContent{
+					li.singleitem{
+						.test_content{
+
+						}
+						.test_owner{
+							display: table;
+							width:300px;
+							margin:0 auto;
+							margin-top:20px;
+							.test_image{
+								width:45px;
+								height:45px;
+								display: table-cell;
+
+								img{
+									width:100%;
+									border-radius: 50%;
+									border:1px solid $lightGray;
+								}
+							}
+							.test_info{
+								display: table-cell;
+								vertical-align: middle;
+								text-align: left;
+								padding-left:15px;
+
+								.test_name{
+
+								}
+								.test_title{
+									color:#cccccc;
+									font-weight: bold;
+									margin-top:8px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 
 	}
 }

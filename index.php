@@ -159,7 +159,7 @@
 		
 
 
-		<section id="testimonial" style="height:560px">
+		<section id="testimonial">
 			<h2 class="section-header">Testimonials</h2>
 			<p class="section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
 			<div class="container">
@@ -168,16 +168,16 @@
 					<span id="RightArrow"></span>
 					<ul id="mainTestContent">
 						<li class="singleitem">
-							<p class="test_content">Awalnya saya tidak menderita penyakit apapun,<br />namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan<br />tidak menderita penyakit apapun!</p>
+							<p class="test_content">Awalnya saya tidak menderita penyakit apapun,<br />namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan<br />tidak menderita penyakit apapun!</p><!-- test_content -->
 							<div class="test_owner">
-								<p class="test_image"><img src="https://pixelmator-pro.s3.amazonaws.com/community/avatar_empty@2x.png" /></p>
+								<p class="test_image"><img src="https://pixelmator-pro.s3.amazonaws.com/community/avatar_empty@2x.png" /></p><!-- .test_image -->
 								<div class="test_info">
-									<p class="test_name">Mario Kirolos</p>
-									<p class="test_title">CEO</p>
-								</div>
-							</div>
-						</li>
-					</ul>
+									<p class="test_name">Mario Kirolos</p><!-- .test_name -->
+									<p class="test_title">CEO</p><!-- .test_title -->
+								</div><!-- .test_info -->
+							</div><!-- .test_owner-->
+						</li><!-- .singleitem -->
+					</ul><!-- #mainTestContent -->
 
 				</div><!-- .TestimonialsContainer -->
 			</div><!-- .contaienr -->
