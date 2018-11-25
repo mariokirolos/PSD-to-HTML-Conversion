@@ -1,0 +1,6 @@
+@mixin enlarge($toPercentage , $time : 320ms) {
+ 	-webkit-transition: $toPercentage%  $time ease-in-out;
+    -moz-transition: $toPercentage%  $time ease-in-out;
+    -o-transition: $toPercentage%  $time ease-in-out;
+    transition: $toPercentage%  $time ease-in-out;
+}
