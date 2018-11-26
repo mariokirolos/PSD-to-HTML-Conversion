@@ -1200,6 +1200,9 @@ main section.color-inverse {
 main section.color-inverse .section-header, main section.color-inverse .section-subheader {
   color: #207b20;
 }
+main section.color-inverse .section-header:after, main section.color-inverse .section-subheader:after {
+  border-bottom: 2px solid #207b20;
+}
 main section.color-inverse button {
   background-color: #2b9b2b;
 }
@@ -1249,7 +1252,7 @@ main section#ourlastwork ul.filteration {
 main section#ourlastwork ul.filteration li {
   background-color: #FFF;
   float: left;
-  padding: 15px 19px;
+  padding: 10px 20px;
   color: #54d154;
   cursor: pointer;
   border: 2px solid #2b9b2b;
@@ -1282,6 +1285,31 @@ main section#ourlastwork .image img:hover {
   opacity: 1;
   border-radius: 50%;
 }
+main section#testimonial .TestimonialsContainer {
+  position: relative;
+}
+main section#testimonial .TestimonialsContainer .arrow {
+  border: solid #828181;
+  position: absolute;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+  top: 30px;
+  cursor: pointer;
+}
+main section#testimonial .TestimonialsContainer .arrow#RightArrow {
+  right: 0px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+main section#testimonial .TestimonialsContainer .arrow#LeftArrow {
+  left: 0px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+main section#testimonial .TestimonialsContainer ul#mainTestContent li.singleitem .test_content {
+  line-height: 1.4em;
+}
 main section#testimonial .TestimonialsContainer ul#mainTestContent li.singleitem .test_owner {
   display: table;
   width: 300px;
@@ -1308,6 +1336,87 @@ main section#testimonial .TestimonialsContainer ul#mainTestContent li.singleitem
   color: #cccccc;
   font-weight: bold;
   margin-top: 8px;
+}
+main section#happyclients {
+  background: #f2f1f1;
+}
+main section#happyclients .image {
+  display: table;
+  width: 100%;
+  margin-bottom: 63px;
+  height: 70px;
+}
+main section#happyclients .image span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+main section#happyclients .image span img {
+  max-width: 100%;
+  max-height: 100%;
+}
+main section#happyclients button {
+  background: #dddcdc;
+  color: #a59d9d;
+  padding: 12px 33px;
+  border-radius: 30px;
+}
+main section#team .memberImage {
+  width: 100%;
+}
+main section#team .memberImage img {
+  width: 100%;
+  border-radius: 50%;
+}
+main section#team .memberImage:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  border-left: 2px solid #207b20;
+}
+main section#team .memberName {
+  color: #FFF;
+  font-weight: 500;
+}
+main section#team .memberSocial {
+  background: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  margin-top: 14px;
+  border-radius: 25px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+main section#team .memberSocial .social-icon {
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-image: url("../images/social_icons.png");
+  margin-right: 7px;
+  float: left;
+  opacity: 0.7;
+  -webkit-transition: 100ms ease-in-out;
+  -moz-transition: 100ms ease-in-out;
+  -o-transition: 100ms ease-in-out;
+  transition: 100ms ease-in-out;
+}
+main section#team .memberSocial .social-icon:last-child {
+  margin-right: 0px;
+}
+main section#team .memberSocial .social-icon:hover {
+  opacity: 1;
+}
+main section#team .memberSocial .social-icon.fb {
+  background-position: -1px 55px;
+}
+main section#team .memberSocial .social-icon.tw {
+  background-position: -1px 82px;
+}
+main section#team .memberSocial .social-icon.yt {
+  background-position: -29px 82px;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -12,7 +12,12 @@ main{
 
 			.section-header , .section-subheader{
 				color:#207b20;
+
+				&:after{
+					border-bottom: 2px solid #207b20;
+				}
 			}
+
 
 			button{
 				background-color:#2b9b2b;
@@ -80,7 +85,7 @@ main{
 				li{
 					background-color:$primary-c;
 					float:left;
-					padding:15px 19px;
+					padding:10px 20px;
 					color:$primary-bg;
 					cursor:pointer;
 					border:2px solid $dark-bg;
@@ -123,10 +128,34 @@ main{
 
 		&#testimonial{
 			.TestimonialsContainer{
+				position:relative;
+				.arrow{
+					border: solid $lightGray;
+					position:absolute;
+				    border-width: 0 10px 10px 0;
+				    display: inline-block;
+				    padding: 10px;
+				    top:30px;
+				    cursor: pointer;
+
+				    &#RightArrow{
+				    	right:0px;
+						transform: rotate(-45deg);
+				    	-webkit-transform: rotate(-45deg);
+				    }
+
+				    &#LeftArrow{
+				    	left:0px;
+						transform: rotate(135deg);
+					    -webkit-transform: rotate(135deg);
+					}
+
+				}
+
 				ul#mainTestContent{
 					li.singleitem{
 						.test_content{
-
+							line-height: 1.4em;
 						}
 						.test_owner{
 							display: table;
@@ -162,6 +191,105 @@ main{
 						}
 					}
 				}
+			}
+		}
+
+
+		&#happyclients{
+			background:#f2f1f1;
+			
+			
+
+			.image{
+				display: table;
+  				width: 100%;
+				margin-bottom:63px;
+				height:70px;
+
+				span{
+					display: table-cell;
+					text-align: center;
+					vertical-align: middle;
+
+					img{
+						max-width: 100%;
+						max-height: 100%;
+					}
+				}
+			}
+
+			button{
+				background:#dddcdc;
+				color:#a59d9d;
+				padding:12px 33px;
+				border-radius: 30px;
+			}
+		}
+
+		&#team{
+			.memberImage{
+				width:100%;
+
+				img{
+					width:100%;
+					border-radius: 50%;
+				}
+
+				&:after{
+					content:'';
+					display: block;
+					width:1px;
+					height:80px;
+					margin:0 auto;
+					margin-top:10px;
+					margin-bottom:12px;
+					border-left:2px solid #207b20;
+				}
+			}
+
+			.memberName{
+				color:$primary-c;
+				font-weight: 500;
+			}
+
+			.memberSocial{
+				background:rgba(255,255,255,0.7);
+				display: inline-block;
+				margin-top:14px;
+				border-radius: 25px;
+				padding:5px;
+				margin-bottom:25px;
+				
+				.social-icon{
+					width:25px;
+					height:25px;
+					display: block;
+					background-image: url("../images/social_icons.png");
+					margin-right:7px;
+					float:left;
+					opacity:0.7;
+					@include enlarge(100);
+
+					&:last-child{
+						margin-right:0px;
+					}
+					&:hover{
+						opacity:1;
+					}
+					
+					&.fb{
+						background-position: -1px 55px; 
+					}
+					
+					&.tw{
+						background-position: -1px 82px; 
+					}
+					
+					&.yt{
+						background-position: -29px 82px; 
+					}
+				}
+
 			}
 		}
 
