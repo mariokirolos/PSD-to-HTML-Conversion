@@ -1084,7 +1084,8 @@ header #topHeader {
 }
 header #topHeader.fixedHeader {
   background: #54d154;
-  height: 60px;
+  height: auto;
+  padding-bottom: 20px;
 }
 header #topHeader.fixedHeader nav ul li .activeDiv {
   background: #FFF;
@@ -1122,6 +1123,9 @@ header #topHeader nav ul li a, header #topHeader nav ul li a:hover, header #topH
 header #topHeader nav:after {
   clear: both;
 }
+header #topHeader #logo {
+  padding-top: 15px;
+}
 header #topHeader #logo h2 {
   font-family: "Nautilus Pompilius";
   color: #FFF;
@@ -1132,11 +1136,20 @@ header #topHeader #logo h2 {
 header #topHeader #search {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 15px;
-  width: 250px;
   float: right;
   padding: 5px 10px;
   margin-top: 10px;
   margin-right: 10px;
+}
+@media (min-width: 576px) {
+  header #topHeader #search {
+    width: 98%;
+  }
+}
+@media (min-width: 768px) {
+  header #topHeader #search {
+    width: 250px;
+  }
 }
 header #topHeader #search input[type=text] {
   width: 200px;
@@ -1151,6 +1164,19 @@ header #topHeader #search button {
   margin: 0px;
   padding: 0px;
   color: #828181;
+}
+header #topHeader button.navbar-toggler {
+  margin-top: 5px;
+  margin-left: 5px;
+  background: #FFF;
+}
+header #topHeader .navbar-nav {
+  background: #828181;
+}
+@media (min-width: 992px) {
+  header #topHeader .navbar-nav {
+    background: transparent;
+  }
 }
 header .header-caption {
   height: 550px;
@@ -1417,6 +1443,92 @@ main section#team .memberSocial .social-icon.tw {
 }
 main section#team .memberSocial .social-icon.yt {
   background-position: -29px 82px;
+}
+
+footer #footer {
+  color: #dddddd;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: "Montserrat", sans-serif;
+}
+footer #footer .section-header {
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  padding-bottom: 7px;
+}
+footer #footer .section-header:after {
+  content: "";
+  width: 35px;
+  height: 2px;
+  background: #dddddd;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+footer #footer p {
+  margin-bottom: 33px;
+  line-height: 1.4;
+}
+footer #footer .socialLinks {
+  background: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  margin-top: 14px;
+  border-radius: 25px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+footer #footer .socialLinks .social-icon {
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-image: url("../images/social_icons.png");
+  margin-right: 7px;
+  float: left;
+  opacity: 0.7;
+  -webkit-transition: 100ms ease-in-out;
+  -moz-transition: 100ms ease-in-out;
+  -o-transition: 100ms ease-in-out;
+  transition: 100ms ease-in-out;
+}
+footer #footer .socialLinks .social-icon:last-child {
+  margin-right: 0px;
+}
+footer #footer .socialLinks .social-icon:hover {
+  opacity: 1;
+}
+footer #footer .socialLinks .social-icon.fb {
+  background-position: -1px 55px;
+}
+footer #footer .socialLinks .social-icon.tw {
+  background-position: -1px 82px;
+}
+footer #footer .socialLinks .social-icon.yt {
+  background-position: -29px 82px;
+}
+footer #footer ul#posts {
+  text-align: left;
+}
+footer #footer ul#posts li .image {
+  width: 60px;
+  float: left;
+  margin-right: 10px;
+}
+footer #footer ul#posts li .image img {
+  width: 100%;
+}
+footer #footer ul#posts li .post-title {
+  padding-top: 4px;
+}
+footer #footer ul#posts li .category {
+  margin-top: 7px;
+  display: inline-block;
+  font-size: 0.8em;
+  background: green;
+  padding: 4px 8px;
+  border-radius: 2px;
 }
 
 /*# sourceMappingURL=app.css.map */

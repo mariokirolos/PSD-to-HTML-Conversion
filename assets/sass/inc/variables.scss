@@ -4,3 +4,16 @@ $secondary-c: #777;
 $fontPrimary:  'Montserrat', sans-serif;
 $dark-bg: #2b9b2b;
 $lightGray:#828181;
+
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;

@@ -39,7 +39,8 @@ header{
 
 	    &.fixedHeader{
 			background: $primary-bg;
-			height:60px;
+			height:auto;
+			padding-bottom: 20px;
 
 	
 			nav{
@@ -97,6 +98,7 @@ header{
 
 
 		#logo{
+			padding-top:15px;
 			 h2{
 				    font-family: "Nautilus Pompilius";
 				    color: $primary-c;
@@ -110,11 +112,18 @@ header{
 		#search{
 			background: rgba(255,255,255,0.7);
 			border-radius:15px;
-			width:250px;
 			float:right;
 			padding:5px 10px;
 			margin-top:10px;
 			margin-right:10px;
+
+			@include sm{
+				width:98%;
+			}
+
+			@include md{
+				width:250px;	
+			}
 
 			input[type="text"] {
 				width:200px;
@@ -134,6 +143,22 @@ header{
 
 		}
 	
+
+	
+		button.navbar-toggler{
+			margin-top: 5px;
+			margin-left: 5px;
+		    background: $primary-c;
+		}
+		.navbar-nav{
+			background:$lightGray;
+			
+			// 992px window width and more
+			    @include lg {
+			        background:transparent;
+			    }
+		}
+
 	}
 
 	.header-caption{

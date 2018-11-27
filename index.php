@@ -23,22 +23,31 @@
 			<div class="row">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-4 text-left">
-							<nav>
-								<ul>
-									<li class="active"><div class="activeDiv"></div><a class="scroll-link" href="#home">Home</a></li>
-									<li><div class="activeDiv"></div><a class="scroll-link" href="#whatwedo">What we do?</a></li>
-									<li><div class="activeDiv"></div><a class="scroll-link" href="#testimonial">Testimonial</a></li>
-									<li><div class="activeDiv"></div><a class="scroll-link" href="#contact">Contact Us</a></li>
-								</ul>
+						<div class="col-md-5 text-left">
+							<nav class="navbar-expand-lg navbar-light">
+							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							    <span class="navbar-toggler-icon"></span>
+							  </button>
+							  <div class="collapse navbar-collapse" id="navbarNav">
+							    <ul class="navbar-nav">
+							      
+							      	<li class="nav-item active"><div class="activeDiv"></div><a class="scroll-link" href="#home">Home</a></li>
+									<li class="nav-item"><div class="activeDiv"></div><a class="scroll-link" href="#whatwedo">What we do?</a></li>
+									<li class="nav-item"><div class="activeDiv"></div><a class="scroll-link" href="#testimonial">Testimonial</a></li>
+									<li class="nav-item"><div class="activeDiv"></div><a class="scroll-link" href="#contact">Contact Us</a></li>
+							    </ul>
+							  </div>
 							</nav>
+
+
+
 						</div><!-- .text-left -->
-						<div class="col-4 text-center">
+						<div class="col-md-3 text-center">
 							<div id="logo">
 								<h2>Switch</h2>
 							</div><!-- #logo -->
 						</div><!-- .text-center -->
-						<div class="col-4 text-right">
+						<div class="col-md-4 text-right">
 							<div id="search">
 								<form action="search.php" method="GET">
 									<input type="text" placeholder="Search..." name="s" autocomplete="off" /><button type="submit"><span class="oi" data-glyph="magnifying-glass"></span></button>
@@ -328,7 +337,36 @@
 
 	</main>
 	<footer>
-		<section id="footer1" style="560px">Three cols and last one should have an id of contact</section>
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h2 class="section-header">About Us</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="socialLinks">
+								<a href="#" class="social-icon fb"></a><!-- social Link -->
+								<a href="#" class="social-icon tw"></a><!-- social Link -->
+								<a href="#" class="social-icon yt"></a><!-- social Link -->
+							</div><!-- .SocialLinks -->
+					</div><!-- col-md-4 -->
+					<div class="col-md-4">
+						<h2 class="section-header">Recent Posts</h2>
+						<ul id="posts">
+							<li>
+								<div class="image">
+									<img src="assets/images/lot-thumbnail-placeholder.png" />
+								</div><!-- .image -->
+								<div class="post-title">Lorem ipsum </div><!-- .post-title -->
+								<span class="category magazine">magazine</span>
+							</li><!-- post -->
+						</ul><!-- #posts -->
+					</div><!-- col-md-4 -->
+					<div class="col-md-4">
+						<h2 class="section-header">Contact Us</h2>
+					</div><!-- col-md-4 -->
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</section><!-- #footer -->
 		<section id="asseen">As seen on</section>
 		<section id="copyrights">made with Love by Mario Kirolos</section>
 	</footer>
