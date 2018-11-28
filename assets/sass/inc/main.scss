@@ -129,27 +129,18 @@ main{
 		&#testimonial{
 			.TestimonialsContainer{
 				position:relative;
-				.arrow{
-					border: solid $lightGray;
+				.slick-arrow{
 					position:absolute;
-				    border-width: 0 10px 10px 0;
-				    display: inline-block;
-				    padding: 10px;
-				    top:30px;
-				    cursor: pointer;
+					z-index: 1000;
+					top: 0px;
 
-				    &#RightArrow{
-				    	right:0px;
-						transform: rotate(-45deg);
-				    	-webkit-transform: rotate(-45deg);
-				    }
-
-				    &#LeftArrow{
-				    	left:0px;
-						transform: rotate(135deg);
-					    -webkit-transform: rotate(135deg);
+					&.slick-prev{
+						left: -25px;
 					}
 
+					&.slick-next{
+						right: -25px;
+					}
 				}
 
 				ul#mainTestContent{

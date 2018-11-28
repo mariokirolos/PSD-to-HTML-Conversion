@@ -173,8 +173,6 @@
 			<p class="section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
 			<div class="container">
 				<div class="TestimonialsContainer">
-					<span id="LeftArrow" class="arrow"></span>
-					<span id="RightArrow" class="arrow"></span>
 					<ul id="mainTestContent">
 						<li class="singleitem">
 							<p class="test_content">Awalnya saya tidak menderita penyakit apapun,<br />namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan<br />tidak menderita penyakit apapun!</p><!-- test_content -->
@@ -182,10 +180,20 @@
 								<p class="test_image"><img src="assets/images/avatar_empty.png" /></p><!-- .test_image -->
 								<div class="test_info">
 									<p class="test_name">Mario Kirolos</p><!-- .test_name -->
-									<p class="test_title">CEO</p><!-- .test_title -->
+									<p class="test_title">CTO</p><!-- .test_title -->
 								</div><!-- .test_info -->
 							</div><!-- .test_owner-->
 						</li><!-- .singleitem -->
+						<li class="singleitem">
+							<p class="test_content">Awalnya saya tidak menderita penyakit apapun,<br />namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan<br />tidak menderita penyakit apapun!</p><!-- test_content -->
+							<div class="test_owner">
+								<p class="test_image"><img src="assets/images/avatar_empty.png" /></p><!-- .test_image -->
+								<div class="test_info">
+									<p class="test_name">Mina Kirolos</p><!-- .test_name -->
+									<p class="test_title">CEO</p><!-- .test_title -->
+								</div><!-- .test_info -->
+							</div><!-- .test_owner-->
+						</li><!-- .singleitem -->					
 					</ul><!-- #mainTestContent -->
 
 				</div><!-- .TestimonialsContainer -->
@@ -403,6 +411,7 @@
 							  	<input type="text" name="name" class="form-control name" id="name" autocomplete="off" placeholder="Your Name..." />
 							    <input type="email" class="form-control" id="email" name="email" autocomplete="off" placeholder="Your Email..." />
 							    <textarea class="form-control message" name="message" id="message" placeholder="Your Message..."></textarea>
+							    <div id="response"></div>
 							  <button type="submit">Send</button>
 							</form>
 						</div><!-- .contactus -->
@@ -420,7 +429,13 @@
 <!-- Bootstrap javascript -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+<!-- Slick -->
+<script src="assets/js/slick.min.js"></script>
+
+
 <!-- Custom javascript -->
 <script src="assets/js/script.js"></script>
+
+
 </body>
 </html>
