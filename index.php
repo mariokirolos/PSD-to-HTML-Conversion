@@ -356,19 +356,61 @@
 								<div class="image">
 									<img src="assets/images/lot-thumbnail-placeholder.png" />
 								</div><!-- .image -->
-								<div class="post-title">Lorem ipsum </div><!-- .post-title -->
+								<div class="post-title">Lorem Ipsum Dolor Sit Amet.</div><!-- .post-title -->
 								<span class="category magazine">magazine</span>
+							</li><!-- post -->
+							<li>
+								<div class="image">
+									<img src="assets/images/lot-thumbnail-placeholder.png" />
+								</div><!-- .image -->
+								<div class="post-title">Lorem Ipsum Dolor Sit Amet. </div><!-- .post-title -->
+								<span class="category ui-design">UI Design</span>
+							</li><!-- post -->
+							<li>
+								<div class="image">
+									<img src="assets/images/lot-thumbnail-placeholder.png" />
+								</div><!-- .image -->
+								<div class="post-title">Lorem Ipsum Dolor Sit Amet. </div><!-- .post-title -->
+								<span class="category photography">photography</span>
+							</li><!-- post -->
+							<li>
+								<div class="image">
+									<img src="assets/images/lot-thumbnail-placeholder.png" />
+								</div><!-- .image -->
+								<div class="post-title">Lorem Ipsum Dolor Sit Amet.</div><!-- .post-title -->
+								<span class="category book">Book</span>
+							</li><!-- post -->
+							<li>
+								<div class="image">
+									<img src="assets/images/lot-thumbnail-placeholder.png" />
+								</div><!-- .image -->
+								<div class="post-title">Lorem Ipsum Dolor Sit Amet.</div><!-- .post-title -->
+								<span class="category ui-design">ui design</span>
 							</li><!-- post -->
 						</ul><!-- #posts -->
 					</div><!-- col-md-4 -->
 					<div class="col-md-4">
 						<h2 class="section-header">Contact Us</h2>
+						<address>
+							10044 West 23th Street,Suite 721<br />
+							New York NY 10010<br /><!-- Address -->
+							Email: <a href="mailto:username@email.com">Username@email.com</a><!-- Email --><br />
+							Phone: <a href="tel:+101234567890">+1 (0) 123 4567 890</a><!-- Tel --><br />
+							Fax: <a href="tel:+103214567890">+1 (0) 321 4567 890</a><!-- Fax -->
+						</address>
+						<div class="contactus">
+							<form action="/contact_us.php">
+							  	<input type="text" name="name" class="form-control name" id="name" autocomplete="off" placeholder="Your Name..." />
+							    <input type="email" class="form-control" id="email" name="email" autocomplete="off" placeholder="Your Email..." />
+							    <textarea class="form-control message" name="message" id="message" placeholder="Your Message..."></textarea>
+							  <button type="submit">Send</button>
+							</form>
+						</div><!-- .contactus -->
 					</div><!-- col-md-4 -->
 				</div><!-- .row -->
 			</div><!-- .container -->
 		</section><!-- #footer -->
-		<section id="asseen">As seen on</section>
-		<section id="copyrights">made with Love by Mario Kirolos</section>
+		<section id="copyrights">made with <span class="oi" data-glyph="heart"></span> by <a href="https://mariokirolos.com">Mario Kirolos</a></section>
 	</footer>
 
 

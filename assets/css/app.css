@@ -1510,25 +1510,107 @@ footer #footer .socialLinks .social-icon.yt {
 }
 footer #footer ul#posts {
   text-align: left;
+  margin: 0 auto;
+  width: 85%;
+}
+footer #footer ul#posts li {
+  display: block;
+  margin-bottom: 10px;
+  height: 63px;
+  cursor: pointer;
+  -webkit-transition: 110ms ease-in-out;
+  -moz-transition: 110ms ease-in-out;
+  -o-transition: 110ms ease-in-out;
+  transition: 110ms ease-in-out;
+}
+footer #footer ul#posts li:hover {
+  transform: scale(1.1);
 }
 footer #footer ul#posts li .image {
-  width: 60px;
+  width: 54px;
   float: left;
   margin-right: 10px;
 }
 footer #footer ul#posts li .image img {
   width: 100%;
+  border-radius: 5px;
 }
 footer #footer ul#posts li .post-title {
-  padding-top: 4px;
+  padding-top: 7px;
+  font-size: 16px;
 }
 footer #footer ul#posts li .category {
-  margin-top: 7px;
+  margin-top: 8px;
   display: inline-block;
   font-size: 0.8em;
-  background: green;
+  background-color: green;
   padding: 4px 8px;
   border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 12.5px;
+}
+footer #footer ul#posts li .category.ui-design {
+  background-color: #ffba00;
+  color: #dddddd;
+}
+footer #footer ul#posts li .category.photography {
+  background-color: #089dea;
+}
+footer #footer ul#posts li .category.book {
+  background-color: #f34d04;
+}
+footer #footer address {
+  color: #ddd;
+  line-height: 18px;
+  margin-bottom: 27px;
+}
+footer #footer address a, footer #footer address a:focus, footer #footer address a:visited {
+  color: #ddd;
+  text-decoration: none;
+  -webkit-transition: 110ms ease-in-out;
+  -moz-transition: 110ms ease-in-out;
+  -o-transition: 110ms ease-in-out;
+  transition: 110ms ease-in-out;
+}
+footer #footer address a:hover, footer #footer address a:focus:hover, footer #footer address a:visited:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+footer #footer .contactus input, footer #footer .contactus textarea {
+  border: 0px;
+  border-radius: 0px;
+  margin-bottom: 2px;
+  background-color: #444444;
+  color: #FFF;
+  resize: none;
+}
+footer #footer .contactus input::placeholder, footer #footer .contactus textarea::placeholder {
+  color: #777777;
+}
+footer #footer .contactus .name {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+footer #footer .contactus button {
+  text-transform: uppercase;
+  border-radius: 0px 0px 6px 6px;
+  display: block;
+  width: 100%;
+  margin-top: 2px;
+  background-color: #2b9b2b;
+  color: #FFF;
+  padding: 11px 0px;
+}
+footer #copyrights {
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px 0px;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+}
+footer #copyrights a, footer #copyrights a:visited, footer #copyrights a:focus {
+  color: #FFF;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=app.css.map */
